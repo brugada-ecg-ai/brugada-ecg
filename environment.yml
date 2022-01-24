@@ -1,0 +1,12 @@
+name: brugada-ecg
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pip>=20
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - pip:
+     - keras>=2.6
