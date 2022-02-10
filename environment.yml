@@ -8,5 +8,8 @@ dependencies:
   - pandas
   - matplotlib
   - jupyterlab
+  - ipywidgets
+  - xmltodict
+  - tqdm
   - pip:
      - keras>=2.6
